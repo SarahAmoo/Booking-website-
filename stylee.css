@@ -1,0 +1,144 @@
+.logo img{
+height: 150px;
+width: 150px;
+border-radius: 95px;
+}
+.main-over{
+  justify-content: flex-end;
+  display: flex;
+  gap: 650px;
+  padding-bottom: 20px;
+
+}
+body{
+align-items: center; 
+background-color: lightblue;
+/* background-image: url(aburi.jpg); */
+background-repeat: no-repeat;
+background-position: center;
+background-attachment:local;
+background-size: cover;
+image-rendering:auto;
+image-resolution: 300dpi;
+}
+.bossu{
+float: right; 
+} 
+.bossu ul {
+display: flex;
+font-weight: bold;
+list-style-type: none;
+gap: 55px;
+font-weight: bolder;
+font-size: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bossu,ul,li :link{
+transition: all 0.3ms ease-in-out;
+color: darkorange;
+}
+/* .bossu,ul,li :hover{
+  color: brown;
+} */
+.starter p{
+ padding-bottom: 80em; 
+ align-items:center; 
+padding: 150px;
+font-size:xx-large;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+border: 3px solid greenyellow;
+background-color: beige;
+}
+.starter h1{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  gap: 90px;
+  color: black;
+  font-size: 50px;
+}
+*{
+   margin: 80;
+   padding: 80;
+   border-bottom-style:hidden;
+}
+.main-starter{
+  flex: content;
+}
+.contact form{
+ border: 30px solid lightpink;
+ box-shadow: -1px 12px 12px 6px rebeccapurple;
+ border-radius: 80px;
+ place-items: center;
+ margin: 300px;
+ margin-bottom: 300px;
+}
+.contact label{
+ font-size: 20px;
+ color: green;
+ align-items: center;
+ text-align: center;
+}
+.contact input{
+  width: 380px;
+  height: 20px;
+  padding: 15px;
+  gap: 100px;
+  margin: 10px 0px; 
+  border-radius: 10px;
+}
+.contact h2{
+  text-align: center;
+  font-size: large;
+  color: blue;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contact legend{
+  text-align: center;
+  font-size: large;
+  color: rgb(124, 19, 50);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contact button{
+  padding: 10px 9px;
+  background-color: aqua; 
+  font-weight: bolder;
+  width: 580px;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+/* footer img{
+  width: 100px;
+  height: 100px;
+  border-radius: 40px;
+  float: left;
+} */
+ .contact textarea{
+  padding: 30px;
+  margin: 10px 0px;
+  height: 60px;
+  width: 490px;
+  border-radius: 10px;
+ }
+ .footer-section{
+  display: flex;
+  gap: 30px;
+  justify-content: flex-end;
+  
+ }
+ .footer-section img{
+  width: 50px;
+  height: 50px;
+  float: center; 
+  margin-right: 10px;
+  margin-top: 100px;
+ }
+ .footer-section h1{
+  font-weight: bolder;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 50px;
+  float:center;
+  margin-left: 100px; 
+  margin-bottom: 100px;
+  gap: 60px;
+ }
